@@ -479,7 +479,9 @@ true,
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>="&lt;b&gt;Lorem&lt;/b&gt;&amp;nbsp; ipsum&amp;nbsp; &lt;b&gt;dolor&lt;/b&gt; sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra &lt;b&gt;dolor&lt;/b&gt; malesuada &lt;br /&gt;eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. &lt;br /&gt;Nunc&amp;nbsp; dapibus&amp;nbsp; convallis&amp;nbsp; lectus,&amp;nbsp; eu&amp;nbsp; mattis&amp;nbsp; nisi&amp;nbsp; dictum eget. Morbi quis enim eget &lt;b&gt;dolor&lt;/b&gt; ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia &lt;br /&gt;malesuada.&amp;nbsp; Etiam&amp;nbsp; sit&amp;nbsp; amet&amp;nbsp; sollicitudin&amp;nbsp; erat. Curabitur auctor hendrerit pulvinar. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet &lt;br /&gt;turpis&amp;nbsp; quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo &lt;br /&gt;commodo.&amp;nbsp; Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida &lt;br /&gt;posuere.&amp;nbsp; Suspendisse&amp;nbsp; nec&amp;nbsp; porttitor&amp;nbsp; orci.&amp;nbsp; Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. &lt;br /&gt;Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."</Value>
+                        <Value>="&lt;b&gt;Lorem&lt;/b&gt;&amp;nbsp; ipsum&amp;nbsp; &lt;b&gt;dolor&lt;/b&gt; sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra &lt;b&gt;dolor&lt;/b&gt; malesuada &lt;br /&gt;eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. &lt;br /&gt;Nunc&amp;nbsp; dapibus&amp;nbsp; convallis&amp;nbsp; lectus,&amp;nbsp; eu&amp;nbsp; mattis&amp;nbsp; nisi&amp;nbsp; dictum eget. Morbi quis enim eget &lt;b&gt;dolor&lt;/b&gt; ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia &lt;br /&gt;malesuada.&amp;nbsp; Etiam&amp;nbsp; sit&amp;nbsp; amet&amp;nbsp; sollicitudin&amp;nbsp; erat. Curabitur auctor hendrerit pulvinar. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet &lt;br /&gt;turpis&amp;nbsp; quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo &lt;br /&gt;commodo.&amp;nbsp; Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida &lt;br /&gt;posuere.&amp;nbsp; Suspendisse&amp;nbsp; nec&amp;nbsp; porttitor&amp;nbsp; orci.&amp;nbsp; Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. &lt;br /&gt;Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem." +
+"&lt;p&gt;Este es un &lt;span style='font-family:consolas;font-size:7pt;font-weight:bold;'&gt;texto en negrita&lt;/span&gt; con un tamaño de fuente personalizado.&lt;/p&gt;"+
+"&lt;p style=""font-family:times new roman;font-size:20pt;margin:0 0 0 0;""&gt; &lt;span style=""font-family:arial mt std;font-weight:bold;""&gt;my world&lt;/span&gt; &lt;/p&gt; &lt;p style=""font-family:times new roman;font-size:6pt;margin:14 0 14 0;""&gt;&lt;span style=""font-family:arial;font-weight:bold;""&gt;&lt;span&gt;my name is chris. rici®&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"</Value>
                         <MarkupType>HTML</MarkupType>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -496,6 +498,7 @@ true,
                 </Paragraphs>
                 <rd:DefaultName>Textbox4</rd:DefaultName>
                 <Top>6.68954cm</Top>
+                <Left>0cm</Left>
                 <Height>0.49793cm</Height>
                 <Width>18.5cm</Width>
                 <ZIndex>15</ZIndex>
@@ -978,7 +981,7 @@ End Function
 
 Function ApplyBoldFormat(text As String, ParamArray bold_words() As String) As String
     For Each bold_word As String In bold_words
-        text = text.Replace(bold_word, "&lt;b&gt;" &amp; bold_word &amp; "&lt;/b&gt;")
+        text = text.Replace(bold_word, "&lt;b&gt;" &amp; bold_word &amp; "&lt;/b &gt;")
     Next
     Return text
 End Function
