@@ -65,7 +65,6 @@ true,
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox30</rd:DefaultName>
-                <Left>0cm</Left>
                 <Height>0.6cm</Height>
                 <Width>4.8151cm</Width>
                 <ZIndex>1</ZIndex>
@@ -95,7 +94,6 @@ true,
                 </Paragraphs>
                 <rd:DefaultName>Textbox30</rd:DefaultName>
                 <Top>3.01174cm</Top>
-                <Left>0cm</Left>
                 <Height>0.6cm</Height>
                 <Width>4.8151cm</Width>
                 <ZIndex>2</ZIndex>
@@ -337,7 +335,12 @@ true,
                         <Value>=Code.TextOnlyJustifyHtmlBold(
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra dolor malesuada eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. Nunc dapibus convallis lectus, eu mattis nisi dictum eget. Morbi quis enim eget dolor ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia malesuada. Etiam sit amet sollicitudin erat." +
 "Curabitur auctor hendrerit pulvina. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet turpis quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo commodo. Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida posuere. Suspendisse nec porttitor orci. Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."
-, 155)</Value>
+, 155
+, { "Lorem", 
+	"dolor",
+	"consectetur adipiscing elit"
+  }
+)</Value>
                         <MarkupType>HTML</MarkupType>
                         <Style>
                           <FontStyle>Normal</FontStyle>
@@ -397,7 +400,6 @@ true,
                 </Paragraphs>
                 <rd:DefaultName>Textbox4</rd:DefaultName>
                 <Top>2.20063cm</Top>
-                <Left>0cm</Left>
                 <Height>0.47146cm</Height>
                 <Width>18.5cm</Width>
                 <ZIndex>12</ZIndex>
@@ -427,7 +429,6 @@ true,
                 </Paragraphs>
                 <rd:DefaultName>Textbox30</rd:DefaultName>
                 <Top>1.42424cm</Top>
-                <Left>0cm</Left>
                 <Height>0.6cm</Height>
                 <Width>7.32864cm</Width>
                 <ZIndex>13</ZIndex>
@@ -457,7 +458,6 @@ true,
                 </Paragraphs>
                 <rd:DefaultName>Textbox30</rd:DefaultName>
                 <Top>5.91315cm</Top>
-                <Left>0cm</Left>
                 <Height>0.6cm</Height>
                 <Width>7.32865cm</Width>
                 <ZIndex>14</ZIndex>
@@ -496,7 +496,6 @@ true,
                 </Paragraphs>
                 <rd:DefaultName>Textbox4</rd:DefaultName>
                 <Top>6.68954cm</Top>
-                <Left>0cm</Left>
                 <Height>0.49793cm</Height>
                 <Width>18.5cm</Width>
                 <ZIndex>15</ZIndex>
@@ -984,7 +983,7 @@ Function ApplyBoldFormat(text As String, ParamArray bold_words() As String) As S
     Return text
 End Function
 
-Function TextOnlyJustifyHtmlBold(text As String, max_chars_per_line As Integer) As String
+Function TextOnlyJustifyHtmlBold(text As String, max_chars_per_line As Integer, ParamArray bold_words() As String) As String
     Dim words As String() = text.Split()
     Dim justified_text As String = ""
     Dim line As String = ""
@@ -1019,7 +1018,6 @@ Function TextOnlyJustifyHtmlBold(text As String, max_chars_per_line As Integer) 
 
     justified_text += line.Trim()
 
-    Dim bold_words As String() = {"Lorem", "dolor"}
     justified_text = ApplyBoldFormat(justified_text, bold_words)
 
     Return justified_text

@@ -251,7 +251,7 @@ Ejemplo de uso :
 Esta función combina las características de justificación de texto y formato en negrita. Realiza la justificación del texto y resalta palabras específicas en negrita. El resultado se devuelve en formato HTML.
 
 ```vb
-Function TextOnlyJustifyHtmlBold(text As String, max_chars_per_line As Integer) As String
+Function TextOnlyJustifyHtmlBold(text As String, max_chars_per_line As Integer, ParamArray bold_words() As String) As String
     Dim words As String() = text.Split()
     Dim justified_text As String = ""
     Dim line As String = ""
@@ -286,12 +286,17 @@ Function TextOnlyJustifyHtmlBold(text As String, max_chars_per_line As Integer) 
 
     justified_text += line.Trim()
 
-    Dim bold_words As String() = {"Lorem", "dolor"}
     justified_text = ApplyBoldFormat(justified_text, bold_words)
 
     Return justified_text
 End Function
 ```
+
+ - text (String): Este es el bloque de texto que deseas justificar y formatear en HTML. Es el texto que quieres que la función divida en líneas y ajuste según el límite de caracteres por línea.
+
+ - maxCharsPerLine (Integer): Este es el número máximo de caracteres permitidos por línea. La función intentará justificar el texto para que cada línea tenga aproximadamente esta cantidad de caracteres, agregando espacios no rompibles (&nbsp;) según sea necesario.
+
+  - bold_words() (ParamArray): Este es un array de palabras de las cuales quiero que esten en negrilla.
 
  - ApplyBoldFormat: Esta función recorre el texto y reemplaza las palabras específicas con su versión en negrita. Esto es útil para resaltar ciertas palabras clave en el contenido.
 
@@ -302,7 +307,12 @@ Ejemplo de uso :
 =Code.TextOnlyJustifyHtmlBold(
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra dolor malesuada eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. Nunc dapibus convallis lectus, eu mattis nisi dictum eget. Morbi quis enim eget dolor ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia malesuada. Etiam sit amet sollicitudin erat." +
 "Curabitur auctor hendrerit pulvina. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet turpis quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo commodo. Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida posuere. Suspendisse nec porttitor orci. Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."
-, 155)
+, 155
+, { "Lorem", 
+	"dolor",
+	"consectetur adipiscing elit"
+  }
+)
 ```
 
 ### Función ApplyBoldFormat
