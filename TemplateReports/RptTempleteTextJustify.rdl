@@ -37,8 +37,8 @@ true,
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox4</rd:DefaultName>
-                <Top>0.89958cm</Top>
-                <Height>0.8948cm</Height>
+                <Top>0.77639cm</Top>
+                <Height>0.47146cm</Height>
                 <Width>18.5cm</Width>
                 <Style>
                   <Border>
@@ -57,7 +57,7 @@ true,
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>- Sin HTML</Value>
+                        <Value>- Sin HTML Consolas 6pt</Value>
                         <Style />
                       </TextRun>
                     </TextRuns>
@@ -65,10 +65,9 @@ true,
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox30</rd:DefaultName>
-                <Top>0.12319cm</Top>
                 <Left>0cm</Left>
                 <Height>0.6cm</Height>
-                <Width>2.5cm</Width>
+                <Width>4.8151cm</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
@@ -87,7 +86,7 @@ true,
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>- Con HTML</Value>
+                        <Value>- Con HTML Consolas 6pt</Value>
                         <Style />
                       </TextRun>
                     </TextRuns>
@@ -95,9 +94,10 @@ true,
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox30</rd:DefaultName>
-                <Top>2.33701cm</Top>
+                <Top>3.01174cm</Top>
+                <Left>0cm</Left>
                 <Height>0.6cm</Height>
-                <Width>2.5cm</Width>
+                <Width>4.8151cm</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
@@ -110,7 +110,7 @@ true,
                 </Style>
               </Textbox>
               <Line Name="Line2">
-                <Top>5.70236cm</Top>
+                <Top>9.13286cm</Top>
                 <Left>1.04615cm</Left>
                 <Height>0cm</Height>
                 <Width>3.5cm</Width>
@@ -122,7 +122,7 @@ true,
                 </Style>
               </Line>
               <Line Name="Line3">
-                <Top>5.70236cm</Top>
+                <Top>9.13286cm</Top>
                 <Left>8.02139cm</Left>
                 <Height>0cm</Height>
                 <Width>3.5cm</Width>
@@ -155,7 +155,7 @@ true,
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox3</rd:DefaultName>
-                <Top>5.77291cm</Top>
+                <Top>9.20341cm</Top>
                 <Left>1.04615cm</Left>
                 <Height>0.6cm</Height>
                 <Width>3.5cm</Width>
@@ -191,7 +191,7 @@ true,
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox3</rd:DefaultName>
-                <Top>5.77291cm</Top>
+                <Top>9.20341cm</Top>
                 <Left>8.02139cm</Left>
                 <Height>0.6cm</Height>
                 <Width>3.5cm</Width>
@@ -208,7 +208,7 @@ true,
               </Textbox>
               <Rectangle Name="Rectangle2">
                 <KeepTogether>true</KeepTogether>
-                <Top>5.70236cm</Top>
+                <Top>8.4843cm</Top>
                 <Left>14.3861cm</Left>
                 <Height>2.64083cm</Height>
                 <Width>2.11526cm</Width>
@@ -240,7 +240,7 @@ true,
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox3</rd:DefaultName>
-                <Top>4.96125cm</Top>
+                <Top>7.74319cm</Top>
                 <Left>14.3861cm</Left>
                 <Height>0.6cm</Height>
                 <Width>2.11526cm</Width>
@@ -264,9 +264,9 @@ true,
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>=Code.FormatearTexto(
+                        <Value>=Code.TextOnlyJustifyHTML(
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra dolor malesuada eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. Nunc dapibus convallis lectus, eu mattis nisi dictum eget. Morbi quis enim eget dolor ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia malesuada. Etiam sit amet sollicitudin erat." +
-"Curabitur auctor hendrerit pulvinar. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet turpis quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo commodo. Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida posuere. Suspendisse nec porttitor orci. Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."
+"Curabitur auctor hendrerit pulvina. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet turpis quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo commodo. Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida posuere. Suspendisse nec porttitor orci. Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."
 , 155)</Value>
                         <MarkupType>HTML</MarkupType>
                         <Style>
@@ -283,11 +283,223 @@ true,
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox4</rd:DefaultName>
-                <Top>3.23031cm</Top>
-                <Left>0cm</Left>
-                <Height>0.8948cm</Height>
+                <Top>3.78813cm</Top>
+                <Height>0.49793cm</Height>
                 <Width>18.5cm</Width>
                 <ZIndex>9</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox32">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>- Con HTML-Bold Consolas 6pt </Value>
+                        <Style />
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox30</rd:DefaultName>
+                <Top>4.46244cm</Top>
+                <Height>0.6cm</Height>
+                <Width>7.32865cm</Width>
+                <ZIndex>10</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox6">
+                <CanGrow>true</CanGrow>
+                <CanShrink>true</CanShrink>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>=Code.TextOnlyJustifyHtmlBold(
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra dolor malesuada eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. Nunc dapibus convallis lectus, eu mattis nisi dictum eget. Morbi quis enim eget dolor ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia malesuada. Etiam sit amet sollicitudin erat." +
+"Curabitur auctor hendrerit pulvina. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet turpis quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo commodo. Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida posuere. Suspendisse nec porttitor orci. Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."
+, 155)</Value>
+                        <MarkupType>HTML</MarkupType>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Consolas</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>=IIF(Me.Value = "TRABAJADOR", "Bold", "Normal")</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox4</rd:DefaultName>
+                <Top>5.23883cm</Top>
+                <Height>0.49793cm</Height>
+                <Width>18.5cm</Width>
+                <ZIndex>11</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox7">
+                <CanGrow>true</CanGrow>
+                <CanShrink>true</CanShrink>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>=Code.TextOnlyJustify(
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra dolor malesuada eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. Nunc dapibus convallis lectus, eu mattis nisi dictum eget. Morbi quis enim eget dolor ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia malesuada. Etiam sit amet sollicitudin erat." +
+"Curabitur auctor hendrerit pulvinar. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet turpis quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo commodo. Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida posuere. Suspendisse nec porttitor orci. Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."
+,
+new System.Drawing.Font("MS Gothic", "6"), 
+true, 
+600)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>MS Gothic</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>=IIF(Me.Value = "TRABAJADOR", "Bold", "Normal")</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox4</rd:DefaultName>
+                <Top>2.20063cm</Top>
+                <Left>0cm</Left>
+                <Height>0.47146cm</Height>
+                <Width>18.5cm</Width>
+                <ZIndex>12</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox33">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>- Sin HTML MS Gothic, Consolas  6pt</Value>
+                        <Style />
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox30</rd:DefaultName>
+                <Top>1.42424cm</Top>
+                <Left>0cm</Left>
+                <Height>0.6cm</Height>
+                <Width>7.32864cm</Width>
+                <ZIndex>13</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox34">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>- Con HTML Codigo Python Consolas 6pt</Value>
+                        <Style />
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox30</rd:DefaultName>
+                <Top>5.91315cm</Top>
+                <Left>0cm</Left>
+                <Height>0.6cm</Height>
+                <Width>7.32865cm</Width>
+                <ZIndex>14</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox10">
+                <CanGrow>true</CanGrow>
+                <CanShrink>true</CanShrink>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>="&lt;b&gt;Lorem&lt;/b&gt;&amp;nbsp; ipsum&amp;nbsp; &lt;b&gt;dolor&lt;/b&gt; sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra &lt;b&gt;dolor&lt;/b&gt; malesuada &lt;br /&gt;eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. &lt;br /&gt;Nunc&amp;nbsp; dapibus&amp;nbsp; convallis&amp;nbsp; lectus,&amp;nbsp; eu&amp;nbsp; mattis&amp;nbsp; nisi&amp;nbsp; dictum eget. Morbi quis enim eget &lt;b&gt;dolor&lt;/b&gt; ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia &lt;br /&gt;malesuada.&amp;nbsp; Etiam&amp;nbsp; sit&amp;nbsp; amet&amp;nbsp; sollicitudin&amp;nbsp; erat. Curabitur auctor hendrerit pulvinar. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet &lt;br /&gt;turpis&amp;nbsp; quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo &lt;br /&gt;commodo.&amp;nbsp; Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida &lt;br /&gt;posuere.&amp;nbsp; Suspendisse&amp;nbsp; nec&amp;nbsp; porttitor&amp;nbsp; orci.&amp;nbsp; Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. &lt;br /&gt;Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."</Value>
+                        <MarkupType>HTML</MarkupType>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Consolas</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>=IIF(Me.Value = "TRABAJADOR", "Bold", "Normal")</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox4</rd:DefaultName>
+                <Top>6.68954cm</Top>
+                <Left>0cm</Left>
+                <Height>0.49793cm</Height>
+                <Width>18.5cm</Width>
+                <ZIndex>15</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -302,7 +514,7 @@ true,
             <KeepTogether>true</KeepTogether>
             <Top>0.14111cm</Top>
             <Left>1.62437cm</Left>
-            <Height>8.67833cm</Height>
+            <Height>11.13896cm</Height>
             <Width>18.5cm</Width>
             <Style>
               <Border>
@@ -311,7 +523,7 @@ true,
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>3.54167in</Height>
+        <Height>4.51042in</Height>
         <Style />
       </Body>
       <Width>8.5625in</Width>
@@ -731,7 +943,7 @@ Private Function ReplaceSome(s As String, repl As String, wth As String, num As 
     ReplaceSome += s2(s2.Length - 1)
 End Function
 
-Public Function FormatearTexto(text As String, maxCharsPerLine As Integer) As String
+Public Function TextOnlyJustifyHTML(text As String, maxCharsPerLine As Integer) As String
     Dim words() As String = text.Split(" "c)
     Dim justifiedText As String = ""
     Dim line As String = ""
@@ -763,6 +975,54 @@ Public Function FormatearTexto(text As String, maxCharsPerLine As Integer) As St
 
     justifiedText += line.Trim()
     Return justifiedText
+End Function
+
+Function ApplyBoldFormat(text As String, ParamArray bold_words() As String) As String
+    For Each bold_word As String In bold_words
+        text = text.Replace(bold_word, "&lt;b&gt;" &amp; bold_word &amp; "&lt;/b&gt;")
+    Next
+    Return text
+End Function
+
+Function TextOnlyJustifyHtmlBold(text As String, max_chars_per_line As Integer) As String
+    Dim words As String() = text.Split()
+    Dim justified_text As String = ""
+    Dim line As String = ""
+
+    For Each word As String In words
+        If line.Length + word.Length &gt; max_chars_per_line Then
+            Dim faltantes As Integer = max_chars_per_line - line.Trim().Length
+            Dim subwords As String() = line.Trim().Split()
+            Dim limit As Integer = subwords.Length - 1
+            Dim aux As Integer = 0
+
+            For i As Integer = 1 To faltantes
+                If aux &lt; limit Then
+                    subwords(aux) += "&amp;nbsp;"
+                    aux += 1
+                Else
+                    aux = 0
+                    subwords(aux) += "&amp;nbsp;"
+                End If
+            Next
+
+            For Each s As String In subwords
+                justified_text += s &amp; " "
+            Next
+            justified_text += "&lt;br /&gt;"
+            line = ""
+
+        End If
+
+        line += word &amp; " "
+    Next
+
+    justified_text += line.Trim()
+
+    Dim bold_words As String() = {"Lorem", "dolor"}
+    justified_text = ApplyBoldFormat(justified_text, bold_words)
+
+    Return justified_text
 End Function</Code>
   <CodeModules>
     <CodeModule>System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</CodeModule>
