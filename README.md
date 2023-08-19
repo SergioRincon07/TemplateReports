@@ -21,7 +21,8 @@ Las funciones principales son:
 
 ### Función TextOnlyJustify
 
-Esta función toma un bloque de texto, una fuente específica, un valor booleano para la indentación y un ancho máximo para las líneas. Justifica el texto completo dividiéndolo en párrafos y palabras, y luego aplicando justificación a las líneas individuales según la fuente y el ancho proporcionados. Devuelve el texto justificado como una cadena.
+Esta función toma un bloque de texto, una fuente específica, un valor booleano para la indentación y un ancho máximo para las líneas. Justifica el texto completo dividiéndolo en párrafos y palabras, y luego aplicando justificación a las líneas individuales según la fuente y el ancho proporcionados. Devuelve el texto justificado como una cadena. Me guie del siguiente link. [SQL Server Reporting Services (SSRS) - How to Justify Text (Part 2)](https://www.phidiax.com/blog/post/sql-server-reporting-services-ssrs-how-to-justify-text-part-2)
+
 
 ```vb
 Public Function TextOnlyJustify(text As String, font As System.Drawing.Font, bIndent As Boolean, width As Single) As String
