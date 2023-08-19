@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily">
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+  <AutoRefresh>0</AutoRefresh>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Rectangle Name="Rectangle6">
+            <ReportItems>
+              <Textbox Name="Textbox4">
+                <CanGrow>true</CanGrow>
+                <CanShrink>true</CanShrink>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>=Code.TextOnlyJustify(
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra dolor malesuada eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. Nunc dapibus convallis lectus, eu mattis nisi dictum eget. Morbi quis enim eget dolor ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia malesuada. Etiam sit amet sollicitudin erat." +
+"Curabitur auctor hendrerit pulvinar. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet turpis quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo commodo. Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida posuere. Suspendisse nec porttitor orci. Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."
+,
+new System.Drawing.Font("Consolas", "6"), 
+true, 
+715)</Value>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Consolas</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>=IIF(Me.Value = "TRABAJADOR", "Bold", "Normal")</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox4</rd:DefaultName>
+                <Top>0.89958cm</Top>
+                <Height>0.8948cm</Height>
+                <Width>18.5cm</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox30">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>- Sin HTML</Value>
+                        <Style />
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox30</rd:DefaultName>
+                <Top>0.12319cm</Top>
+                <Left>0cm</Left>
+                <Height>0.6cm</Height>
+                <Width>2.5cm</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox31">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>- Con HTML</Value>
+                        <Style />
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox30</rd:DefaultName>
+                <Top>2.33701cm</Top>
+                <Height>0.6cm</Height>
+                <Width>2.5cm</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Line Name="Line2">
+                <Top>5.70236cm</Top>
+                <Left>1.04615cm</Left>
+                <Height>0cm</Height>
+                <Width>3.5cm</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>Solid</Style>
+                  </Border>
+                </Style>
+              </Line>
+              <Line Name="Line3">
+                <Top>5.70236cm</Top>
+                <Left>8.02139cm</Left>
+                <Height>0cm</Height>
+                <Width>3.5cm</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>Solid</Style>
+                  </Border>
+                </Style>
+              </Line>
+              <Textbox Name="Textbox3">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>="EL EMPLEADOR &lt;br /&gt;" + 
+" MEGALINEA S.A."</Value>
+                        <MarkupType>HTML</MarkupType>
+                        <Style>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox3</rd:DefaultName>
+                <Top>5.77291cm</Top>
+                <Left>1.04615cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.5cm</Width>
+                <ZIndex>5</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox8">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>="EL TRABAJADOR &lt;br /&gt;" + 
+"C.C. "</Value>
+                        <MarkupType>HTML</MarkupType>
+                        <Style>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox3</rd:DefaultName>
+                <Top>5.77291cm</Top>
+                <Left>8.02139cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.5cm</Width>
+                <ZIndex>6</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Rectangle Name="Rectangle2">
+                <KeepTogether>true</KeepTogether>
+                <Top>5.70236cm</Top>
+                <Left>14.3861cm</Left>
+                <Height>2.64083cm</Height>
+                <Width>2.11526cm</Width>
+                <ZIndex>7</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>Solid</Style>
+                  </Border>
+                </Style>
+              </Rectangle>
+              <Textbox Name="Textbox9">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>HUELLA</Value>
+                        <Style>
+                          <FontFamily>Times New Roman</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox3</rd:DefaultName>
+                <Top>4.96125cm</Top>
+                <Left>14.3861cm</Left>
+                <Height>0.6cm</Height>
+                <Width>2.11526cm</Width>
+                <ZIndex>8</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Middle</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox5">
+                <CanGrow>true</CanGrow>
+                <CanShrink>true</CanShrink>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>=Code.FormatearTexto(
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem nec diam auctor aliquam sit amet quis augue. Praesent pharetra dolor malesuada eros laoreet volutpat. Nulla ac rhoncus lorem. Pellentesque vel tempus ex, ut sagittis eros. Curabitur rutrum lacus risus, vel molestie augue euismod quis. Nunc dapibus convallis lectus, eu mattis nisi dictum eget. Morbi quis enim eget dolor ultricies ultrices id in lacus. Sed nec tellus ut enim lacinia malesuada. Etiam sit amet sollicitudin erat." +
+"Curabitur auctor hendrerit pulvinar. Ut imperdiet arcu vitae rutrum iaculis. Donec at est cursus, laoreet turpis quis, eleifend odio. Donec at mattis magna. Praesent odio ligula, tincidunt et erat non, laoreet semper metus. Praesent hendrerit elit quis commodo commodo. Pellentesque non porttitor ipsum. Aenean eu mauris ut lorem varius tincidunt sed id dui. Proin euismod nec orci quis rutrum. Nunc gravida gravida posuere. Suspendisse nec porttitor orci. Donec consectetur nisl eu tempor feugiat. Cras vulputate sem quis mauris mattis, nec tincidunt orci pulvinar. Proin viverra ipsum tellus, quis accumsan magna fringilla sit amet. Aliquam egestas augue nec lacus suscipit sagittis. Nulla quis sodales lorem."
+, 155)</Value>
+                        <MarkupType>HTML</MarkupType>
+                        <Style>
+                          <FontStyle>Normal</FontStyle>
+                          <FontFamily>Consolas</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>=IIF(Me.Value = "TRABAJADOR", "Bold", "Normal")</FontWeight>
+                          <TextDecoration>None</TextDecoration>
+                          <Color>#000000</Color>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox4</rd:DefaultName>
+                <Top>3.23031cm</Top>
+                <Left>0cm</Left>
+                <Height>0.8948cm</Height>
+                <Width>18.5cm</Width>
+                <ZIndex>9</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+            </ReportItems>
+            <KeepTogether>true</KeepTogether>
+            <Top>0.14111cm</Top>
+            <Left>1.62437cm</Left>
+            <Height>8.67833cm</Height>
+            <Width>18.5cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Rectangle>
+        </ReportItems>
+        <Height>3.54167in</Height>
+        <Style />
+      </Body>
+      <Width>8.5625in</Width>
+      <Page>
+        <PageHeader>
+          <Height>2.07349cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Rectangle Name="Rectangle3">
+              <KeepTogether>true</KeepTogether>
+              <Top>0.29997cm</Top>
+              <Left>1.62437cm</Left>
+              <Height>1.5cm</Height>
+              <Width>3cm</Width>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Rectangle>
+            <Textbox Name="Textbox14">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>CONTRATO INDIVIDUAL DE TRABAJO A TÉRMINO FIJO MENOR A UN AÑO
+</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>="Hola"</Value>
+                      <MarkupType>HTML</MarkupType>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox13</rd:DefaultName>
+              <Top>0.29997cm</Top>
+              <Left>4.62437cm</Left>
+              <Height>1.5cm</Height>
+              <Width>11cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox15">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>CÓDIGO:</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <FontWeight>Normal</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>UN-TH-F-336</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <FontWeight>Normal</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox13</rd:DefaultName>
+              <Top>0.29997cm</Top>
+              <Left>15.62437cm</Left>
+              <Height>0.75cm</Height>
+              <Width>4.5cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox16">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Versión: 2</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <FontWeight>Normal</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Fecha: Enero de 2022</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <FontWeight>Normal</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox13</rd:DefaultName>
+              <Top>1.04997cm</Top>
+              <Left>15.62437cm</Left>
+              <Height>0.75cm</Height>
+              <Width>4.5cm</Width>
+              <ZIndex>3</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>2cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox20">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Sede Principal Calle xxxxxxx Bogotá, Colombia Tel: xxxxx </Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Normal</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Cali (2) xxxxxxx- Ibagué (8) xxxxxx- Medellín (4) xxxxxxxx
+</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Normal</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>¡Comunicando Progreso!</Value>
+                      <Style>
+                        <FontStyle>Normal</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <TextDecoration>None</TextDecoration>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox20</rd:DefaultName>
+              <Top>0.4207cm</Top>
+              <Left>1.62437cm</Left>
+              <Height>1.22235cm</Height>
+              <Width>18.5cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>27.94cm</PageHeight>
+        <PageWidth>21.59cm</PageWidth>
+        <LeftMargin>0cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>0cm</TopMargin>
+        <BottomMargin>0cm</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Code>Public Function TextOnlyJustify(text As String, font As System.Drawing.Font, bIndent As Boolean, width As Single) As String
+    Dim bmp As New System.Drawing.Bitmap(1024, 1024)
+    Dim gr = System.Drawing.Graphics.FromImage(bmp)
+    Dim sRtn As New System.Text.StringBuilder()
+ 
+    Dim paragraphs As String() = text.Split(ControlChars.NewLine)
+ 
+    For Each paragraph As String In paragraphs
+        Dim words As String() = paragraph.Split(" "C)
+        Dim start_word As Integer = 0
+        Dim indent As Single = If(bIndent, 40F, 0F)
+ 
+        ' Repeat until we run out of text or room.
+        While True
+            ' See how many words will fit.
+            ' Start with just the next word.
+            Dim line As String = words(start_word)
+ 
+            ' Add more words until the line won't fit.
+            Dim end_word As Integer = start_word + 1
+            While end_word &lt; words.Length
+                ' See if the next word fits.
+                Dim test_line As String = (line &amp; Convert.ToString(" ")) + words(end_word)
+                Dim line_size As System.Drawing.SizeF = gr.MeasureString(test_line, font)
+                If line_size.Width + indent &gt; width Then
+                    ' The line is too wide. Don't use the last word.
+                    end_word -= 1
+                    Exit While
+                Else
+                    ' The word fits. Save the test line.
+                    line = test_line
+                End If
+ 
+                ' Try the next word.
+                end_word += 1
+            End While
+ 
+            ' See if this is the last line in the paragraph.
+            If (end_word = words.Length) Then
+                ' This is the last line. Don't justify it.
+                sRtn.Append(line)
+            Else
+                ' This is not the last line. Justify it.
+ 
+                sRtn.Append(TextLine(gr, line, font, width - indent, True))
+            End If
+ 
+            ' Start the next line at the next word.
+            start_word = end_word + 1
+            If start_word &gt;= words.Length Then
+                Exit While
+            End If
+ 
+            ' Don't indent subsequent lines in this paragraph.
+            indent = 0
+        End While
+ 
+        ' Add a gap after the paragraph.
+        sRtn.Append(vbLf &amp; vbCr)
+    Next
+ 
+    Return sRtn.ToString()
+End Function
+
+Public Function TextLine(gr As System.Drawing.Graphics, line As String, font As System.Drawing.Font, width As Single, justification As Boolean) As String
+    Dim sLine As New System.Text.StringBuilder()
+    ' See if we should use full justification.
+    If justification Then
+        ' Justify the text.
+        ' Break the text into words.
+        Dim words As String() = line.Split(" "c)
+ 
+        ' Add a space to each word and get their lengths.
+        Dim word_width As Single() = New Single(words.Length - 1) {}
+        Dim total_width As Single = 0
+        For i As Integer = 0 To words.Length - 1
+            ' See how wide this word is.
+            Dim size As System.Drawing.SizeF = gr.MeasureString(words(i), font)
+            word_width(i) = size.Width
+            total_width += word_width(i)
+        Next
+ 
+        ' Get the additional spacing between words.
+        Dim extra_space As Single = width - total_width
+        Dim num_spaces As Integer = words.Length - 1
+        If words.Length &gt; 1 Then
+            extra_space /= (num_spaces-1)
+        End If
+ 
+        For i2 As Integer = 1 To 100
+            Dim sTest As String = line.Replace(" ", New String(ChrW(&amp;H200A), i2))
+            If gr.MeasureString(sTest, font).Width &gt; width Then
+ 
+                For i3 As Integer = words.Length To 1 Step -1
+                    sTest = line.Replace(" ", New String(ChrW(&amp;H200A), i2 - 1))
+                    Dim sTemp = ReplaceSome(sTest, New String(ChrW(&amp;H200A), i2 - 1), New String(ChrW(&amp;H200A), i2), i3)
+                    If gr.MeasureString(sTemp, font).Width &lt; width Then
+                        Console.WriteLine("{0}, size: {1}", line, gr.MeasureString(sTemp, font).Width)
+                        Return sTemp + ControlChars.CrLf
+                    End If
+                Next
+ 
+                Console.WriteLine("{0}, size: {1}", line, gr.MeasureString(line.Replace(" ", New String(ChrW(&amp;H200A), i2 - 1)), font).Width)
+                Return line.Replace(" ", New String(ChrW(&amp;H200A), i2 - 1)) + ControlChars.CrLf
+            End If
+        Next
+ 
+ 
+    Else
+        Return line
+    End If
+End Function
+
+Private Function ReplaceSome(s As String, repl As String, wth As String, num As Integer) As String
+ 
+    ReplaceSome = String.Empty
+    Dim s2 As String() = s.Split(repl, num, StringSplitOptions.RemoveEmptyEntries)
+ 
+    For t As Integer = 0 To s2.Length - 2
+        ReplaceSome += s2(t) + wth
+    Next
+ 
+    ReplaceSome += s2(s2.Length - 1)
+End Function
+
+Public Function FormatearTexto(text As String, maxCharsPerLine As Integer) As String
+    Dim words() As String = text.Split(" "c)
+    Dim justifiedText As String = ""
+    Dim line As String = ""
+
+    For Each word As String In words
+        If (line + word).Length &gt; maxCharsPerLine Then
+            Dim faltantes As Integer = maxCharsPerLine - line.Trim().Length
+            Dim subwords As String() = line.Trim().Split(" ")
+            Dim limit = subwords.Length - 1
+            Dim aux = 0
+            For i As Integer = 0 To faltantes - 1
+                If aux &lt; limit Then
+                    subwords(aux) += "&amp;nbsp;"
+                    aux += 1
+                Else
+                    aux = 0
+                    subwords(aux) += "&amp;nbsp;"
+                End If
+            Next
+            For Each s As String In subwords
+                justifiedText += s + " "
+            Next
+            justifiedText += "&lt;br /&gt;"
+            line = ""
+        End If
+
+        line += word + " "
+    Next
+
+    justifiedText += line.Trim()
+    Return justifiedText
+End Function</Code>
+  <CodeModules>
+    <CodeModule>System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</CodeModule>
+    <CodeModule>System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</CodeModule>
+  </CodeModules>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>5465576c-5996-48ee-871e-7caa586e53ea</rd:ReportID>
+</Report>
